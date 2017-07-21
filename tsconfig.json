@@ -1,0 +1,19 @@
+{
+  "files": [
+    "app/main.ts"
+  ],
+  "compilerOptions": {
+    "allowJs": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es5",
+    "rootDir": "app",
+    "outDir": "transpiled/app",
+    "declaration": false,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "lib": ["es6", "dom"]
+  }
+}
